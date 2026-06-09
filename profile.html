@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Almira | Future Lawyer & Diplomat</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+
+<nav>
+
+```
+<div class="logo">Almira</div>
+
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#goals">Goals</a></li>
+    <li><a href="#interests">Interests</a></li>
+    <li><a href="#experiences">Experiences</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+```
+
+</nav>
+
+<section class="hero" id="home">
+
+```
+<div class="profile-circle">
+    <img src="moi pic.png.jpeg">
+</div>
+
+<h1>Almira Javier Munandar</h1>
+
+<h3>Future Lawyer & Diplomat</h3>
+
+<p class="quote">
+    "The amount of good things in your life depends on your ability to notice them."
+</p>
+```
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="card about-card">
+
+    <p class="intro">
+        Hi, I'm Almira.
+    </p>
+
+    <p>
+        I am a student from Aceh, Indonesia, currently studying at IVHS (Islamic Vocational High School) Alfata,
+        with a strong interest in law, diplomacy, international relations,
+        and public policy.
+    </p>
+
+    <br>
+
+    <p>
+        I enjoy exploring how leadership, communication, and justice shape
+        societies and influence meaningful change. Through academic learning,
+        organizational involvement, and community service, I continue to
+        develop the skills and knowledge needed to create a positive impact.
+        Beyond academics, I spend my time reading, writing, playing guitar,
+        and exploring stories through film and media. I believe that growth
+        comes from curiosity, continuous learning, and the willingness to
+        challenge oneself with new experiences.
+    </p>
+
+    <p class="about-footer">
+        IVHS Alfata • Aceh, Indonesia
+    </p>
+
+</div>
+
+</section>
+
+   
+<section id="goals">
+
+    <h2 class="section-title">Current Goals</h2>
+
+    <div class="grid">
+
+        <div class="card interest-card">
+            <img src="education.png.jpg" class="goal-icon">
+
+<h3>Education</h3>
+            <p>Pursue International Relations and broaden my global perspective.</p>
+        </div>
+
+        <div class="card interest-card">
+            <img src="law.png.jpg" class="goal-icon">
+
+            <h3>Law</h3>
+            <p>Build the knowledge and skills needed for a future legal career.</p>
+        </div>
+
+        <div class="card interest-card">
+            <img src="leadership.png.jpg" class="goal-icon">
+
+            <h3>Leadership</h3>
+            <p>Participate in international programs and meaningful community initiatives.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="interests">
+
+```
+<h2 class="section-title">Interests</h2>
+
+<div class="grid">
+
+    <div class="card interest-card">
+        <h3>Reading & Research</h3>
+        <p>Exploring ideas, current issues, and topics related to law and society.</p>
+    </div>
+
+    <div class="card interest-card">
+        <h3>Playing Guitar</h3>
+        <p>Enjoying music as a creative outlet and personal hobby.</p>
+    </div>
+
+    <div class="card interest-card">
+        <h3>Film & Media</h3>
+        <p>Exploring stories, perspectives, and creativity through cinema.</p>
+    </div>
+
+</div>
+```
+
+</section>
+
+<section id="experiences">
+
+<h2 class="section-title">Experiences</h2>
+
+<div class="grid">
+
+    <div class="card exp-card">
+        <h3>International Exchange<br>Program</h3>
+
+        <button class="view-btn" onclick="toggle(this)">
+            Click to View
+        </button>
+
+        <div class="hidden-content">
+
+            <p>
+                Youth ID by Semangat Muda Indonesia (SMI) is an international volunteer and 
+                exchange program for Indonesian youth focused on leadership 
+                and community service, offering fully funded slots.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="card exp-card">
+        <h3>Student<br>Council</h3>
+
+        <button class="view-btn" onclick="toggle(this)">
+            Click to View
+        </button>
+
+        <div class="hidden-content">
+
+            <p>
+                I currently serve as Vice President of the Student Council and as a Social Media Marketer,
+                where I developed a strong leadership skills through<br>governance, content<br>creation,<br>and digital outreach.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="card exp-card">
+        <h3>Social<br>Service</h3>
+
+        <button class="view-btn" onclick="toggle(this)">
+            Click to View
+        </button>
+
+        <div class="hidden-content">
+
+            <p>February 2026 & April 2026</p>
+
+            <br>
+
+            <p>
+                This program was created to bring joy to children affected by floods and
+                provide them with a positive, meaningful experience<br>during a challenging time<br> together.
+            </p>
+
+        </div>
+    </div>
+
+</div>
+
+</section>
+```
+
+<section id="contact">
+
+```
+<h2 class="section-title">Contact</h2>
+
+<div class="card contact-card">
+
+    <p>📧 javieralmiramunandar@gmail.com</p>
+
+    <p>📷 @almirajavierr</p>
+
+</div>
+```
+
+</section>
+
+<footer>
+
+```
+© 2026 Almira Javier Munandar
+```
+
+</footer>
+
+<script>
+function toggle(button){
+    const card = button.closest(".exp-card");
+    card.classList.toggle("open");
+}
+</script>
+
+<div class="deer-container">
+
+    <div class="speech-bubble" id="deerMessage">
+    Welcome. Thank you for visiting.
+</div>
+
+    <img src="deer.png.png" alt="Deer" class="deer">
+
+</div>
+
+<script>
+const messages = [
+    "Welcome. Thank you for visiting.",
+    "Have a look around.",
+    "Future lawyer in progress.",
+    "Currently collecting experiences.",
+    "Still learning something new every day.",
+    "Go grab a coffee, maybe?"
+];
+
+const randomMessage =
+messages[Math.floor(Math.random() * messages.length)];
+
+document.getElementById("deerMessage").textContent =
+randomMessage;
+</script>
+
+</body>
+</html>
+
+
